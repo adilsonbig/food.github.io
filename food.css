@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #405d27;
+        }
+        .area_fora {
+            display: flex;
+            justify-content: center;
+           
+          
+        }
+        .area_dentro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 30px;
+            width: 1000px;
+            height: 500px;
+            background-image: linear-gradient(#001100, #005500);
+            border-radius: 20px;
+            box-shadow: 1px 1px 1px #fff;
+        }
+        .area_dentro img {
+            width: 110px;
+            height: 80px;
+            margin-left: 50px;
+        }
+        .cabecalho {
+            display: flex;
+            justify-content: space-between;
+        }
+        .cabecalho img {
+            margin-right: 30px;
+            margin-top: 10px;
+        }
+        .espaco_sup {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 110px;
+            height: 110px;
+            background-color:  #86af49;
+            border-radius: 20px 0 70px 0;
+            margin-bottom: 52px;
+            
+        }
+        .espaco_sup i {
+            font-size: 1.8rem;
+            margin: 5px;
+        }
+        .espaco_sup h2 {
+            font-size: 1.1rem;
+        }
+        nav {
+            display: flex;
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style: none;
+            margin-left: 60px;
+        }
+        nav ul li {
+            display: inline-block;
+            
+            
+        }
+        nav ul li a {
+            text-decoration: none;
+           padding: 15px;
+           color: #fff;
+           font-family: Lilita One;
+           font-size: 1.2rem;
+        }
+        nav ul li a:hover {
+            color: gold;
+        }
+        h2.hungre {
+            color: #fff;
+            margin-left: 40px;
+            position: absolute;
+            bottom: 160px;
+            font-size: 2rem;
+            font-family: Lilita One;
+            color: gold;
+        }
+        .propag_burguer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+           
+           
+        }
+        .burguer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color: #fff;
+            font-size: 3.2rem;
+            font-family: Lilita One;
+            text-shadow: 3px 3px 4px yellow;
+            margin-top: 20px;
+        }
+        .burguer img {
+            width: 200px;
+            margin-top: 20px;
+           
+        }
+        .delivery {
+            display: flex;
+            justify-content: flex-end;
+        }
+        .cont {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            width: 160px;
+            height: 160px;
+            background: #86af49;
+            border-radius: 50px 0 20px 0;
+        }
+       
+       /*.delivery {
+       position: absolute;
+       top: 0;
+       left: 0;
+       height: 100%;
+       width: 100%;
+       background: #86af49;
+       clip-path: circle(15% at right);
+       }*/
+    .cont h3 {
+      color: #fff;
+      font-size: 1rem;
+      font-family: Arial;
+    }
